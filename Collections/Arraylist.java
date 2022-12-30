@@ -15,7 +15,7 @@ public class Arraylist {
 	    birds.set(3, "dove");
 	    System.out.println(birds);
 	    birds.remove("Mango");
-	    System.out.println(birds);
+	   // System.out.println(birds);
 		ListIterator i = birds.listIterator();// List iterator method gives list of items in forward and backward
 		while (i.hasNext())
 			System.out.print(i.next() + " "); //forward elements
